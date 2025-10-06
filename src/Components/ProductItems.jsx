@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const ProductItems = ({product}) => {
   const {
@@ -31,7 +32,7 @@ const ProductItems = ({product}) => {
           <p>Category : {category}</p>
           <p>Price : ${price}</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+            <Link to={`/productDetails/${id}`} className="btn btn-block bg-teal-200">view details</Link>
           </div>
         </div>
       </div>

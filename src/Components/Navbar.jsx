@@ -57,9 +57,9 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <NavLink to="/products" className="btn">
-            Visit Shop
-          </NavLink>
+          <button to="/products" className="btn">
+            Login
+          </button>
         </div>
     </div>
   );
